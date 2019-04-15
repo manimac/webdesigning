@@ -1,0 +1,45 @@
+#user{
+    background-color:blueviolet;
+    color:#f3f3f3;
+}
+.user{
+    background-color:greenyellow;
+    color:#333;
+}
+.user3{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase; */
+    text-transform:lowercase;
+    background: gold;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 20%;
+    height: 200px;
+    padding-left: 1%;
+    padding-top: 1%;
+    float: left;
+    border: 2px solid #333;
+}
+.clear{
+    clear: both;
+}
+.user3:hover{
+    background: red;
+}
+
+ul li{
+    list-style: none;
+    float: left;
+    margin-left: 2%;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+
+ul li:hover{
+    color: blue;
+}
