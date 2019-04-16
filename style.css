@@ -23,6 +23,21 @@
     padding-top: 1%;
     float: left;
     border: 2px solid #333;
+    border-radius: 23px 24px 24px 24px;
+    -moz-border-radius: 23px 24px 24px 24px;
+    -webkit-border-radius: 23px 24px 24px 24px;
+    border: 0px solid #000000;    
+    -webkit-box-shadow: -4px 3px 12px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 3px 12px 5px rgba(0,0,0,0.75);
+box-shadow: -4px 3px 12px 5px rgba(0,0,0,0.75);
+background: rgba(52,224,247,1);
+background: -moz-linear-gradient(left, rgba(52,224,247,1) 0%, rgba(193,196,230,1) 36%, rgba(12,183,245,1) 51%, rgba(24,169,222,1) 74%, rgba(39,201,230,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,224,247,1)), color-stop(36%, rgba(193,196,230,1)), color-stop(51%, rgba(12,183,245,1)), color-stop(74%, rgba(24,169,222,1)), color-stop(100%, rgba(39,201,230,1)));
+background: -webkit-linear-gradient(left, rgba(52,224,247,1) 0%, rgba(193,196,230,1) 36%, rgba(12,183,245,1) 51%, rgba(24,169,222,1) 74%, rgba(39,201,230,1) 100%);
+background: -o-linear-gradient(left, rgba(52,224,247,1) 0%, rgba(193,196,230,1) 36%, rgba(12,183,245,1) 51%, rgba(24,169,222,1) 74%, rgba(39,201,230,1) 100%);
+background: -ms-linear-gradient(left, rgba(52,224,247,1) 0%, rgba(193,196,230,1) 36%, rgba(12,183,245,1) 51%, rgba(24,169,222,1) 74%, rgba(39,201,230,1) 100%);
+background: linear-gradient(to right, rgba(52,224,247,1) 0%, rgba(193,196,230,1) 36%, rgba(12,183,245,1) 51%, rgba(24,169,222,1) 74%, rgba(39,201,230,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34e0f7', endColorstr='#27c9e6', GradientType=1 );   
 }
 .clear{
     clear: both;
@@ -42,4 +57,29 @@ ul li{
 
 ul li:hover{
     color: blue;
+}
+
+.popup{
+    position: fixed;
+    width: 50%;
+    top: 10%;
+    left: 20%;
+    background: #ca3232;
+    border-radius: 23px 24px 24px 24px;
+    -moz-border-radius: 23px 24px 24px 24px;
+    -webkit-border-radius: 23px 24px 24px 24px;
+    border: 0px solid #000000;
+    padding: 2%;
+    color: #ffffff;
+    
+}
+.header{
+    font-size: 20px;
+    font-weight: bold;
+}
+.popup .content{
+    margin-top: 5%;
+}
+.widImage{
+    width: 100%;
 }
