@@ -1,0 +1,50 @@
+.logo{
+    width: 10%;
+    float: left;
+    margin-left: 2%;
+}
+.menu{
+    width: 80%;
+    padding-left: 60%;
+}
+.logoImage{
+    width: 100%;
+}
+
+.menu ul li{
+    list-style: none;
+    float: left;
+    margin-left: 2%;
+    font-size: 24px;
+    color: #1568AC;
+    margin-top: 3%;
+}
+.menu ul li:hover{
+    color: burlywood;
+}
+.sliderImage{
+    width: 100%;
+    margin-top: 1%;
+}
+.content{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.col{
+    width: 20.4%;
+    float: left;
+    background: #0860a8;
+    color: white;
+    font-size: 18px;
+    margin-left: 2%;
+    padding: 1%;
+    margin-bottom: 2%;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+.col h2{
+    text-align: center;
+    color: #FFEB3B;
+}
